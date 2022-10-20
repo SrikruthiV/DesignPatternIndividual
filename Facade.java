@@ -1,4 +1,4 @@
-//facade pattern using bridge pattern
+//facade pattern implemented with help of bridge pattern
 
 import javax.swing.*;
 import java.io.File;
