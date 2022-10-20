@@ -1,4 +1,4 @@
-// users factory design pattern to display menu
+//Factory Pattern implementation for Seller using bridge pattern
 
 import javax.swing.*;
 
