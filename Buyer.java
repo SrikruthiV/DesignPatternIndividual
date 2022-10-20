@@ -1,4 +1,4 @@
-//users factory pattern for displaying menu
+//Factory Pattern is used to implement the menu display.
 import javax.swing.*;
 
 public class Buyer extends Person{
