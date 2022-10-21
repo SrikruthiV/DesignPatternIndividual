@@ -10,6 +10,7 @@ public class ProduceProductMenu extends JFrame implements ProductMenu {
     private ArrayList<JLabel> lab;
 
     public ProduceProductMenu(Person buyer) {
+    	System.out.println("Factory Pattern Implemented for Produce");
         this.personObj = buyer;
     }
 
