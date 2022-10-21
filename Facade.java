@@ -1,4 +1,4 @@
-//facade pattern implemented with help of bridge pattern
+//facade pattern using bridge pattern
 
 import javax.swing.*;
 import java.io.File;
@@ -11,6 +11,11 @@ public class Facade {
     private int nProductCategory;
     private ClassProductList theProductList = new ClassProductList();
     private Person thePerson;
+    
+    public Facade()
+    {
+    	System.out.println("Successfyl implementation of Facade Pattern");
+    }
 
     public boolean login() {
         Login loginF = new Login(this);
@@ -106,9 +111,9 @@ public class Facade {
         for(int i=0;i<theProductList.size();i++){
             productList += i +" "+ theProductList.get(i).getName() +"\n";
         }
-        int opt = Integer.parseInt(JOptionPane.showInputDialog(productList));
-        if(opt > 0 && opt < theProductList.size())
-            theSelectedProduct = theProductList.get(opt);
+        int option = Integer.parseInt(JOptionPane.showInputDialog(productList));
+        if(option > 0 && option < theProductList.size())
+            theSelectedProduct = theProductList.get(option);
     }
 
     public void productOperation(){
