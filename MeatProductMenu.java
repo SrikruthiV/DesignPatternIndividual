@@ -8,6 +8,7 @@ public class MeatProductMenu extends JFrame implements ProductMenu{
     private JButton addMeatBtn,viewMeatBtn,meatList,attachedMeatList,selectMeatList;
 
     public MeatProductMenu(Person person) throws HeadlessException {
+    	System.out.println("Factory Pattern Implemented for Meat");
         this.personObj = person;
     }
 
