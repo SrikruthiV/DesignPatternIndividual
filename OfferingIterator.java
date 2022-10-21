@@ -5,7 +5,7 @@ public class OfferingIterator implements ListIterator{
     int offIter;
 
     public OfferingIterator(OfferingList list) {
-    	System.out.println("Iterator Implemented - Meat");
+    	System.out.println("Iterator Implemented");
         this.offList = list;
         offIter = 0;
     }

@@ -2,7 +2,9 @@
 public class ReminderVisitor extends  NodeVisitor{
     private Reminder remVis;
 
-    public ReminderVisitor(Reminder remin, Facade facad, ClassProductList clsProd, Trading trad) {
+    public ReminderVisitor(Reminder remin, Facade facad, ClassProductList clsProd, Trading trad) 
+    {
+    	System.out.println("Visitor Pattern Implementation Sucessfull");
         this.remVis = remin;
     }
 

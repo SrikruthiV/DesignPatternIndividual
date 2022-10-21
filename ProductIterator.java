@@ -5,7 +5,7 @@ public class ProductIterator implements ListIterator {
     int listIter;
 
     public ProductIterator(ClassProductList list) {
-    	System.out.println("Iterator Implemented - Product");
+    	System.out.println("Iterator Pattern for Product Successfull");
         this.prodList = list;
         listIter = 0;
     }
